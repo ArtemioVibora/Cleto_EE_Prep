@@ -19,13 +19,22 @@ class Node
     {
         return value;
     }
+
 }
 
 
 public class Node1 {
+
+
     public static void main(String[] a)
     {
+        Node n1, n2, n3;
 
+
+        for (int i = 0; i < 3; i++)
+        {
+
+        }
     }
 
 }
