@@ -28,8 +28,11 @@ public class Node1 {
 
     public static void main(String[] a)
     {
-        Node n1, n2, n3;
+        Node n3 = new Node(3, null);
+        Node n2 = new Node(2, n3);
+        Node n1 = new Node(1, n2);
 
+        // Now how to traverse
 
         for (int i = 0; i < 3; i++)
         {
